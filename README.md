@@ -19,8 +19,8 @@ const inputFilePath = "./inputs/AUDIO_FILE.mp3";
 ```
 3. Also on `index.ts`, change `language` to match the language of your audio. Should follow [ISO-639 format 1](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes)
 ```
-// Input directory for the audio
-const inputFilePath = "./inputs/AUDIO_FILE.mp3";
+// Language in ISO-639 format 1
+const language = "es";
 ```
 4. Install dependencies:
 ```
